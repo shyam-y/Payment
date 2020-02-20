@@ -30,8 +30,8 @@ export const NavigationBar = () => (
       </Form>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Item><Nav.Link href="http://35.224.200.30:3000">LogIn</Nav.Link></Nav.Item> 
-          <Nav.Item><Nav.Link href="http://35.224.200.30:3000/CreateReceiveOnlyUser"></Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link href="http://34.69.173.48:3000">LogIn</Nav.Link></Nav.Item> 
+          <Nav.Item><Nav.Link href="http://34.69.173.48:3000/CreateReceiveOnlyUser"></Nav.Link></Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
