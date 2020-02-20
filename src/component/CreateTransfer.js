@@ -34,7 +34,7 @@ export default class CreateReceiveOnlyUser extends Component {
     submitHandler = e => {
         e.preventDefault()
         console.log(this.state)
-        axios.post('http://35.224.200.30:9000/cTransfer', this.state)
+        axios.post('http://34.69.173.48:9000/cTransfer', this.state)
         .then(response => {
             console.log(response)
         })
