@@ -36,7 +36,7 @@ constructor(props) {
 // }
 
 customersAPI() {
-  fetch("http://34.69.173.48:9000/customers")
+  fetch("http://104.154.240.55:9000/customers")
       .then(res => res.json())
       .then(res => this.setState({ custRes: res}));
 }
