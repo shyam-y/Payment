@@ -14,7 +14,7 @@ export default class BarChartComponent extends Component
     }
 
     componentDidMount() {
-        axios.get(`http://34.69.173.48:9000/customers`)
+        axios.get(`http://104.154.240.55:9000/customers`)
           .then(res => {
             const customers = res.data;
             let created = [];
